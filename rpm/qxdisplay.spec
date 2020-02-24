@@ -1,4 +1,4 @@
-Name:       qxcompositor
+Name:       qxdisplay
 
 %{!?qtc_qmake:%define qtc_qmake %qmake}
 %{!?qtc_qmake5:%define qtc_qmake5 %qmake5}
@@ -22,7 +22,7 @@ BuildRequires:  pkgconfig(mlite5)
 
 %description
 Qml compositor for running Xwayland on sailfish
-
+(forked from qxcompositor)
 
 %prep
 %setup -q -n %{name}-%{version}

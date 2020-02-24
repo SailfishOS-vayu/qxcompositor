@@ -10,7 +10,7 @@
 #   - translation filenames have to be changed
 
 # The name of your application
-TARGET = qxcompositor
+TARGET = qxdisplay
 
 CONFIG += sailfishapp
 
@@ -39,8 +39,8 @@ OTHER_FILES += \
 
 DISTFILES += \
     qml/compositor/WindowContainer.qml \
-    rpm/qxcompositor.spec \
-    rpm/qxcompositor.changes.in \
+    rpm/qxdisplay.spec \
+    rpm/qxdisplay.changes.in \
     qml/qxcompositor.qml
 
 HEADERS += \
